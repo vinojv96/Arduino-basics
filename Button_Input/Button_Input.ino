@@ -1,5 +1,6 @@
 void setup() {
   pinMode(2, INPUT);
+  //pinMode(2, INPUT_PULLUP); //use this for internal pullup resistor
   pinMode(8, OUTPUT);
   // put your setup code here, to run once:
 
